@@ -1,0 +1,58 @@
+.container{
+  height: 450px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid tomato;
+  box-shadow: 0 0 20px #c7c7cb;
+  border-radius: 30px;
+
+
+}
+.container h4{
+  font-size: 20px;
+  text-decoration: underline;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  width: 80%;
+   
+}
+
+
+.container form label{
+  font-size: 20px;
+  padding-right: 20px;
+
+}
+.container form input{
+  padding: 7px;
+  width: 100%;
+  border: 1px solid tomato;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+  
+}
+
+.container form button{
+  padding: 10px;
+  border: none;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.container .acount{
+  margin-bottom: 50px;
+}
+
